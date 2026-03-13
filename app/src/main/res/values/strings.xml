@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">MealPlanner</string>
+    
+    <!-- Auth Screens -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Plan your meals, achieve your goals</string>
+    <string name="signup_title">Create Account</string>
+    <string name="signup_subtitle">Start your healthy journey today</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Full Name</string>
+    <string name="login_button">Sign In</string>
+    <string name="signup_button">Create Account</string>
+    <string name="signup_link">Don\'t have an account? <b>Create Account</b></string>
+    <string name="back_to_login">Already have an account? <b>Sign In</b></string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="logout_button">Sign Out</string>
+    <string name="or_continue_with">Or continue with</string>
+    <string name="google_signin">Sign in with Google</string>
+    
+    <!-- Home Screen (Legacy) -->
+    <string name="welcome_food">Delicious Awaits!</string>
+    <string name="browse_menu">Explore Menu</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_planner">Planner</string>
+    <string name="nav_add">Add Meal</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_back">Welcome back,</string>
+    <string name="today_meals">Today\'s Meals</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snack">Snack</string>
+    <string name="calories">Calories</string>
+    <string name="protein">Protein</string>
+    <string name="carbs">Carbs</string>
+    <string name="fat">Fat</string>
+    
+    <!-- Meal Planner -->
+    <string name="meal_planner">Meal Planner</string>
+    <string name="weekly_plan">Weekly Plan</string>
+    <string name="daily_view">Daily View</string>
+    <string name="select_day">Select Day</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    
+    <!-- Add Meal -->
+    <string name="add_meal">Add Meal</string>
+    <string name="meal_name">Meal Name</string>
+    <string name="meal_type">Meal Type</string>
+    <string name="servings">Servings</string>
+    <string name="prep_time">Prep Time (minutes)</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="save_meal">Save Meal</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="your_goals">Your Goals</string>
+    <string name="daily_calories">Daily Calories</string>
+    <string name="weight_goal">Weight Goal</string>
+    <string name="dietary_preferences">Dietary Preferences</string>
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="help_support">Help &amp; Support</string>
+    
+    <!-- Messages -->
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_short_password">Password must be at least 6 characters</string>
+    <string name="error_auth_failed">Authentication failed</string>
+    <string name="success_login">Welcome back!</string>
+    <string name="success_signup">Account created successfully!</string>
+    <string name="meal_saved">Meal saved successfully</string>
+    <string name="google_signin_error">Google Sign-In failed</string>
+</resources>

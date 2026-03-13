@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/welcome_food"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_pastel"
+        android:shadowColor="#40000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- User Email Display -->
+    <TextView
+        android:id="@+id/userEmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Welcome!"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcomeText" />
+
+    <!-- Food Icon Container -->
+    <FrameLayout
+        android:id="@+id/foodIconContainer"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="48dp"
+        android:elevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userEmailText">
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/circle_gradient" />
+        
+        <ImageView
+            android:id="@+id/foodIcon"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_restaurant"
+            android:contentDescription="@string/app_name" />
+    </FrameLayout>
+
+    <!-- Browse Menu Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/browseMenuButton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/browse_menu"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:elevation="4dp"
+        app:cornerRadius="16dp"
+        app:icon="@android:drawable/ic_menu_today"
+        app:iconGravity="textStart"
+        app:iconSize="24dp"
+        app:iconTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/foodIconContainer" />
+
+    <!-- Logout Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/logout_button"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="16dp"
+        app:strokeColor="@color/google_red"
+        app:strokeWidth="2dp"
+        app:icon="@android:drawable/ic_lock_power_off"
+        app:iconGravity="textStart"
+        app:iconSize="24dp"
+        app:iconTint="@color/google_red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/browseMenuButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
