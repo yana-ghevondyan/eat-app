@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Properties
 
 plugins {
@@ -31,11 +32,24 @@ android {
 
     defaultConfig {
         applicationId = "com.example.yanagh"
+=======
+plugins {
+    alias(libs.plugins.android.application)
+    // id("com.google.gms.google-services") // Uncomment after adding google-services.json
+}
+
+android {
+    namespace = "com.example.bariaxorjak"
+    compileSdk = 36
+    defaultConfig {
+        applicationId = "com.example.bariaxorjak"
+>>>>>>> 9d2242e6c93f23ef8f802fcad94b213f9ae97df5
         minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
+<<<<<<< HEAD
         // Used by Gemini client (see GeminiApi.java).
         buildConfigField("String", "GEMINI_API_KEY", "\"$escapedGeminiApiKey\"")
         // Mailjet transactional email.
@@ -44,6 +58,8 @@ android {
         buildConfigField("String", "MAILJET_FROM_EMAIL", "\"$mailjetFromEmail\"")
         buildConfigField("String", "MAILJET_FROM_NAME", "\"$mailjetFromName\"")
 
+=======
+>>>>>>> 9d2242e6c93f23ef8f802fcad94b213f9ae97df5
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -56,6 +72,7 @@ android {
             )
         }
     }
+<<<<<<< HEAD
     
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -69,10 +86,16 @@ android {
     buildFeatures {
         viewBinding = true
         buildConfig = true
+=======
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+>>>>>>> 9d2242e6c93f23ef8f802fcad94b213f9ae97df5
     }
 }
 
 dependencies {
+<<<<<<< HEAD
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -112,3 +135,23 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
+=======
+    implementation(libs.appcompat)
+    implementation(libs.material)
+    implementation(libs.activity)
+    implementation(libs.constraintlayout)
+    
+    // Firebase BoM (Commented out until google-services.json is added)
+    // implementation(platform("com.google.firebase:firebase-bom:33.10.0"))
+    
+    // Firebase dependencies (Commented out until google-services.json is added)
+    // implementation("com.google.firebase:firebase-analytics")
+    // implementation("com.google.firebase:firebase-firestore")
+    // implementation("com.google.firebase:firebase-auth")
+    // implementation("com.google.firebase:firebase-storage")
+    
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.ext.junit)
+    androidTestImplementation(libs.espresso.core)
+}
+>>>>>>> 9d2242e6c93f23ef8f802fcad94b213f9ae97df5
