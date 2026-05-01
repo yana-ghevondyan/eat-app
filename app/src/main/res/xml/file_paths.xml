@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File paths configuration for FileProvider
+     Required for sharing files (like camera photos) between apps securely -->
+<paths>
+    <!-- External files directory for storing camera images -->
+    <external-files-path
+        name="plant_images"
+        path="Pictures" />
+    
+    <!-- Cache directory for temporary files -->
+    <cache-path
+        name="cache"
+        path="." />
+</paths>

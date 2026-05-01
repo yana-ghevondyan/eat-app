@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yanagh</string>
+
+    <string name="login_hero_app_name">Yanagh</string>
+    <string name="login_food_badge">Food &amp; nutrition app</string>
+    <string name="login_hero_tagline">Recipes · Meal planning · AI assistant</string>
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to your personal food hub</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Sign in</string>
+    <string name="signup_prompt">Don\'t have an account?</string>
+    <string name="signup_link">Sign up</string>
+    <string name="or_divider">OR</string>
+    <string name="google_signin">Continue with Google</string>
+    <string name="forgot_password">Forgot password?</string>
+
+    <string name="signup_title">Create account</string>
+    <string name="signup_subtitle">Join the food program—recipes and smart tips</string>
+    <string name="name_hint">Full name</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="signup_button">Create account</string>
+    <string name="login_prompt">Already have an account?</string>
+    <string name="login_link">Sign in</string>
+
+    <string name="logout">Log out</string>
+    <string name="logout_confirm">Are you sure you want to log out?</string>
+
+    <string name="error_empty_email">Please enter your email</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_empty_password">Please enter your password</string>
+    <string name="error_short_password">Password must be at least 6 characters</string>
+    <string name="error_passwords_not_match">Passwords do not match</string>
+    <string name="error_empty_name">Please enter your name</string>
+    <string name="error_login_failed">Sign-in failed. Try again.</string>
+    <string name="error_signup_failed">Sign-up failed. Try again.</string>
+    <string name="success_account_created">Account created. Check your inbox for the welcome email.</string>
+    <string name="error_google_signin_failed">Google sign-in failed</string>
+    <string name="success_password_reset">Password reset email sent</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="save_profile">Save</string>
+    <string name="profile_no_name">No name set</string>
+    <string name="profile_no_email">No email</string>
+    <string name="profile_photo_url_hint">Profile photo URL (optional)</string>
+    <string name="profile_photo_url_helper">Paste a link to your profile photo</string>
+    <string name="error_profile_load">Could not load profile. Check your connection.</string>
+    <string name="error_profile_save">Could not save profile. Try again.</string>
+    <string name="success_profile_saved">Profile updated</string>
+
+    <string name="chat_with_ai">AI assistant</string>
+    <string name="chat_input_hint">Ask about your meal…</string>
+    <string name="send">Send</string>
+    <string name="error_chat_empty_message">Please enter a message.</string>
+    <string name="error_chat_network">Network error. Check your connection.</string>
+    <string name="error_chat_api">AI request failed. Try again later.</string>
+
+    <string name="cd_profile_photo">Profile photo</string>
+    <string name="cd_back">Go back</string>
+    <string name="cd_more_options">More options</string>
+    <string name="cd_app_logo">App logo</string>
+
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID_HERE</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_diet">Diet</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="welcome_default">Welcome 👋</string>
+    <string name="welcome_named">Welcome, %1$s 👋</string>
+    <string name="chef_default">Chef</string>
+    <string name="search_recipes_hint">Search recipes…</string>
+    <string name="home_ai_section_title">AI suggestions</string>
+    <string name="btn_what_to_cook">What should I cook?</string>
+    <string name="btn_ingredient_to_recipe">Ingredients → recipe</string>
+    <string name="btn_image_recognition">Image recognition</string>
+    <string name="quick_recipes">Quick recipes</string>
+    <string name="shopping_list">Shopping list</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="notifications">Notifications</string>
+    <string name="language_section">Language</string>
+    <string name="language_hy">Հայերեն</string>
+    <string name="language_en">English</string>
+    <string name="language_hint">Choose a language to switch all app text</string>
+    <string name="settings_language_applied">Language updated</string>
+
+    <string name="onboarding_title">Quick setup</string>
+    <string name="onboarding_subtitle">Enter your weight, height, and age</string>
+    <string name="hint_weight_kg">Weight (kg)</string>
+    <string name="hint_height_cm">Height (cm)</string>
+    <string name="hint_age">Age</string>
+    <string name="continue_btn">Continue</string>
+    <string name="onboarding_fill_all">Please fill in all fields</string>
+
+    <string name="search_dish_hint">Search dish…</string>
+    <string name="hint_max_kcal">Max kcal</string>
+    <string name="hint_max_min">Max min</string>
+    <string name="apply_filters">Apply filters</string>
+    <string name="search_online_hint">Online results combine your search with random meals from TheMealDB. Tap Load more for additional dishes.</string>
+    <string name="search_load_more">Load more dishes</string>
+
+    <string name="load_meal_options">Refresh list</string>
+    <string name="diet_screen_title">Daily meals</string>
+    <string name="diet_subtitle">Pick a meal type to see recipe ideas. Each row shows calories and time for one serving.</string>
+    <string name="diet_meal_label">Meal</string>
+    <string name="diet_list_heading">Suggestions</string>
+    <string name="diet_daily_target_fmt">Your daily target: %1$d kcal</string>
+    <string name="diet_calorie_range_fmt">Calorie range in this list: %1$d–%2$d</string>
+    <string name="diet_recipe_count_fmt">%1$d recipes</string>
+    <string name="diet_no_recipes">No recipes for this selection</string>
+    <string name="diet_heavy_options">Some dishes exceed your daily target in a single meal. Pick a lighter option or split across meals.</string>
+    <string name="diet_light_mix">Good balance—you can combine 1–2 dishes to match your goal.</string>
+    <string name="diet_row_subtitle">%1$d kcal • %2$d min</string>
+    <string name="diet_calories_fmt">Daily estimate: %1$d / target %2$d kcal</string>
+    <string name="diet_warning_high">Warning: calories exceed your daily target</string>
+    <string name="diet_balance_ok">Good balance for today</string>
+    <string name="diet_meal_breakfast">Breakfast</string>
+    <string name="diet_meal_lunch">Lunch</string>
+    <string name="diet_meal_dinner">Dinner</string>
+    <string name="diet_meal_snack">Snack</string>
+    <string name="diet_progress_fmt">%1$d/%2$d completed</string>
+    <string name="diet_change_meal">Swap meal</string>
+    <string name="diet_generate_new_day">New day</string>
+    <string name="diet_pick_alternative">Pick another dish</string>
+    <string name="diet_no_alternatives">No other options</string>
+    <string name="diet_summary_kcal_fmt">This menu: %1$d kcal · target %2$d</string>
+    <string name="diet_empty_slot">—</string>
+    <string name="diet_row_remote_meta">Online · TheMealDB</string>
+    <string name="diet_loading_plan">Loading online menu…</string>
+    <string name="diet_online_unavailable">Could not load online menu. Showing local plan.</string>
+    <string name="diet_translating">Translating to Armenian…</string>
+
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_empty">No favorite recipes yet</string>
+    <string name="shopping_title">Shopping list</string>
+    <string name="shopping_empty">Your list is empty</string>
+    <string name="clear_list">Clear list</string>
+
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+    <string name="read_step_by_step">Read step by step</string>
+    <string name="read_full_recipe">Read full recipe</string>
+    <string name="add_favorite">Add to favorites</string>
+    <string name="remove_favorite">Remove favorite</string>
+    <string name="add_to_shopping">Add ingredients to shopping list</string>
+    <string name="recipe_meta_fmt">%1$d kcal • %2$d min • %3$s</string>
+    <string name="bullet_line">• %1$s</string>
+
+    <string name="tts_intro_ingredients">Ingredients.</string>
+    <string name="tts_intro_steps">Cooking steps.</string>
+    <string name="tts_step_label">Step %d.</string>
+    <string name="tts_missing_voice">Armenian text-to-speech was not found on this device. You can install the Armenian voice pack or switch the default TTS engine.</string>
+    <string name="tts_install_voices">Open installer</string>
+    <string name="tts_dialog_title">Text-to-speech</string>
+    <string name="tts_not_ready">Voice is still loading. Try again in a moment.</string>
+    <string name="tts_nothing_to_read">Nothing to read.</string>
+
+    <string name="tab_food">Food</string>
+    <string name="tab_ai">AI</string>
+    <string name="tab_profile">Profile</string>
+
+    <string name="food_assistant_title">Food assistant</string>
+    <string name="analyze_food_title">Analyze food</string>
+    <string name="analyze_food_instructions">Take or pick a food photo, then tap Analyze to get a recipe and tips</string>
+    <string name="analyze_ready_title">Ready to analyze</string>
+    <string name="analyze_ready_instructions">Tap the button below to analyze your food</string>
+    <string name="btn_analyze_food">Analyze food</string>
+    <string name="analyzing">Analyzing…</string>
+    <string name="take_photo">Take photo</string>
+    <string name="choose_photo">Choose photo</string>
+    <string name="error_pick_image_first">Please select a food photo first</string>
+    <string name="error_load_image">Error loading image</string>
+    <string name="error_no_camera">No camera app available</string>
+    <string name="error_prepare_image">Could not prepare image for AI</string>
+
+    <string name="food_ai_assistant_title">Food AI assistant</string>
+    <string name="chat_welcome">Hi! Tell me what you want to cook or ask for food advice.</string>
+    <string name="food_analysis_hint">Ask about your food…</string>
+    <string name="error_image_path_missing">Image path missing</string>
+    <string name="error_load_image_failed">Failed to load image</string>
+    <string name="error_enter_question">Please enter a question</string>
+
+    <string name="bottom_food">Food</string>
+    <string name="bottom_tips">Tips</string>
+
+    <string name="cd_food_image">Food photo</string>
+
+    <string name="toast_shopping_added">Added to shopping list</string>
+
+    <string name="permission_camera_required">Camera permission is required to take photos</string>
+
+    <string name="please_sign_in">Please sign in first</string>
+</resources>

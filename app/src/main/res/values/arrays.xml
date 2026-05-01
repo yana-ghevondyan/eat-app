@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Internal filter values (English) — do not translate -->
+    <string-array name="recipe_type_values">
+        <item>All</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+    </string-array>
+    <string-array name="recipe_type_labels">
+        <item>Բոլորը</item>
+        <item>Նախաճաշ</item>
+        <item>Ճաշ</item>
+        <item>Ընթրիք</item>
+        <item>Ընդմիջում</item>
+    </string-array>
+
+    <string-array name="meal_type_values">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+    </string-array>
+    <string-array name="meal_type_labels">
+        <item>Նախաճաշ</item>
+        <item>Ճաշ</item>
+        <item>Ընթրիք</item>
+        <item>Ընդմիջում</item>
+    </string-array>
+</resources>

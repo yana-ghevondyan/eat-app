@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meal Logic</string>
+
+    <!-- Auth -->
+    <string name="login_hero_app_name">Meal Logic</string>
+    <string name="login_food_badge">Սննդի ծրագիր</string>
+    <string name="login_hero_tagline">Բաղադրատոմսեր · Օրվա սնունդ · AI օգնական</string>
+    <string name="login_title">Բարի վերադարձ</string>
+    <string name="login_subtitle">Մուտք գործեք՝ ձեր անձնական սննդի աշխատասենյակ</string>
+    <string name="email_hint">Էլ. փոստ</string>
+    <string name="password_hint">Գաղտնաբառ</string>
+    <string name="login_button">Մուտք</string>
+    <string name="signup_prompt">Դեռ հաշիվ չունե՞ք</string>
+    <string name="signup_link">Գրանցվել</string>
+    <string name="or_divider">ԿԱՄ</string>
+    <string name="google_signin">Շարունակել Google-ով</string>
+    <string name="forgot_password">Մոռացե՞լ եք գաղտնաբառը</string>
+
+    <string name="signup_title">Ստեղծել հաշիվ</string>
+    <string name="signup_subtitle">Միացեք սննդի ծրագրին՝ բաղադրատոմսեր և խելացի խորհուրդներ</string>
+    <string name="name_hint">Ամբողջական անուն</string>
+    <string name="confirm_password_hint">Կրկնել գաղտնաբառը</string>
+    <string name="signup_button">Գրանցվել</string>
+    <string name="login_prompt">Արդեն ունե՞ք հաշիվ</string>
+    <string name="login_link">Մուտք</string>
+
+    <string name="logout">Ելք</string>
+    <string name="logout_confirm">Վստա՞հ եք, որ ցանկանում եք դուրս գալ</string>
+
+    <string name="error_empty_email">Գրեք էլ. փոստը</string>
+    <string name="error_invalid_email">Մուտքագրեք վավեր էլ. փոստ</string>
+    <string name="error_empty_password">Գրեք գաղտնաբառը</string>
+    <string name="error_short_password">Գաղտնաբառը պետք է լինի առնվազն 6 նիշ</string>
+    <string name="error_passwords_not_match">Գաղտնաբառերը չեն համընկնում</string>
+    <string name="error_empty_name">Գրեք ձեր անունը</string>
+    <string name="error_login_failed">Մուտը ձախողվեց։ Փորձեք կրկին</string>
+    <string name="error_signup_failed">Գրանցումը ձախողվեց։ Փորձեք կրկին</string>
+    <string name="success_account_created">Հաշիվը ստեղծվեց։ Ստուգեք էլ. փոստը՝ ողջույնի նամակի համար։</string>
+    <string name="error_google_signin_failed">Google մուտը ձախողվեց</string>
+    <string name="success_password_reset">Գաղտնաբառի վերականգնման նամակը ուղարկված է</string>
+
+    <string name="yes">Այո</string>
+    <string name="no">Ոչ</string>
+    <string name="cancel">Չեղարկել</string>
+    <string name="ok">Լավ</string>
+
+    <string name="profile">Պրոֆիլ</string>
+    <string name="edit_profile">Խմբագրել պրոֆիլը</string>
+    <string name="save_profile">Պահպանել</string>
+    <string name="profile_no_name">Անունը դեռ չի լրացվել</string>
+    <string name="profile_no_email">Էլ. փոստ չկա</string>
+    <string name="profile_photo_url_hint">Պրոֆիլի լուսանկարի հղում (ըստ ցանկության)</string>
+    <string name="profile_photo_url_helper">Տեղադրեք հղումը ձեր լուսանկարի համար</string>
+    <string name="error_profile_load">Չհաջողվեց բեռնել պրոֆիլը։ Ստուգեք կապը</string>
+    <string name="error_profile_save">Չհաջողվեց պահպանել։ Փորձեք կրկին</string>
+    <string name="success_profile_saved">Պրոֆիլը թարմացվեց</string>
+
+    <string name="chat_with_ai">AI օգնական</string>
+    <string name="chat_input_hint">Հարցրեք ձեր կերակրի մասին…</string>
+    <string name="send">Ուղարկել</string>
+    <string name="error_chat_empty_message">Գրեք հաղորդագրություն</string>
+    <string name="error_chat_network">Ցանցի սխալ։ Ստուգեք կապը</string>
+    <string name="error_chat_api">AI հարցումը ձախողվեց։ Փորձեք ավելի ուշ</string>
+
+    <string name="cd_profile_photo">Պրոֆիլի լուսանկար</string>
+    <string name="cd_back">Հետ</string>
+    <string name="cd_more_options">Լրացուցիչ ընտրանքներ</string>
+    <string name="cd_app_logo">Ծրագրի պատկերանիշ</string>
+
+    <string name="default_web_client_id">1029203001773-rg4roati9ung7ic5vvtpha3clcoflqhh.apps.googleusercontent.com</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Գլխավոր</string>
+    <string name="nav_search">Որոնում</string>
+    <string name="nav_diet">Սնունդ</string>
+    <string name="nav_favorites">Նախընտրած</string>
+    <string name="nav_settings">Կարգավորումներ</string>
+
+    <!-- Home -->
+    <string name="welcome_default">Բարի գալուստ 👋</string>
+    <string name="welcome_named">Բարի գալուստ, %1$s 👋</string>
+    <string name="chef_default">Խոհարար</string>
+    <string name="search_recipes_hint">Որոնել բաղադրատոմսեր…</string>
+    <string name="home_ai_section_title">AI առաջարկներ</string>
+    <string name="btn_what_to_cook">Ինչ պատրաստեմ՞</string>
+    <string name="btn_ingredient_to_recipe">Բաղադրիչներ → բաղադրատոմս</string>
+    <string name="btn_image_recognition">Ճանաչել նկարից</string>
+    <string name="quick_recipes">Արագ բաղադրատոմսեր</string>
+    <string name="shopping_list">Գնումների ցուցակ</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Կարգավորումներ</string>
+    <string name="settings_appearance">Տեսք</string>
+    <string name="dark_mode">Մուգ ռեժիմ</string>
+    <string name="notifications">Ծանուցումներ</string>
+    <string name="language_section">Լեզու</string>
+    <string name="language_hy">Հայերեն</string>
+    <string name="language_en">English</string>
+    <string name="language_hint">Ընտրեք լեզուն՝ ամբողջ հավելվածի տեքստը փոխելու համար</string>
+    <string name="settings_language_applied">Լեզուն փոխվեց</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Արագ մեկնարկ</string>
+    <string name="onboarding_subtitle">Լրացրեք քաշը, հասակը և տարիքը</string>
+    <string name="hint_weight_kg">Քաշ (կգ)</string>
+    <string name="hint_height_cm">Հասակ (սմ)</string>
+    <string name="hint_age">Տարիք</string>
+    <string name="continue_btn">Շարունակել</string>
+    <string name="onboarding_fill_all">Լրացրեք բոլոր դաշտերը</string>
+
+    <!-- Search -->
+    <string name="search_dish_hint">Որոնել ուտեստ…</string>
+    <string name="hint_max_kcal">Մաքս. կկալ</string>
+    <string name="hint_max_min">Մաքս. րոպե</string>
+    <string name="apply_filters">Կիրառել զտիչներ</string>
+
+    <!-- Diet -->
+    <string name="load_meal_options">Թարմացնել ցուցակը</string>
+    <string name="diet_screen_title">Օրվա սնունդ</string>
+    <string name="diet_subtitle">Ընտրեք կերակրի տիպը՝ տեսնելու համար առաջարկվող բաղադրատոմսերը։ Յուրաքանչյուր տողում կկալներն ու ժամանակը նշված են առանձին։</string>
+    <string name="diet_meal_label">Կերակուր</string>
+    <string name="diet_list_heading">Առաջարկներ</string>
+    <string name="diet_daily_target_fmt">Ձեր օրվա նպատակ՝ %1$d կկալ</string>
+    <string name="diet_calorie_range_fmt">Այս ցուցակում կկալների միջակայք՝ %1$d–%2$d</string>
+    <string name="diet_recipe_count_fmt">Ընդամենը %1$d բաղադրատոմս</string>
+    <string name="diet_no_recipes">Այս ընտրությամբ բաղադրատոմս չկա</string>
+    <string name="diet_heavy_options">Որոշ ուտեստներ գերազանցում են ձեր օրվա նպատակը մեկ մասնակի կերակուրով։ Ընտրեք թեթև տարբերակ կամ բաժանեք մի քանի ընդմիջման վրա։</string>
+    <string name="diet_light_mix">Լավ հավասարակշռություն՝ կարող եք համակցել 1–2 ուտեստ ձեր նպակին համապատասխան։</string>
+    <string name="diet_row_subtitle">%1$d կկալ • %2$d րոպե</string>
+    <string name="diet_calories_fmt">Օրվա գնահատում՝ %1$d / նպատակ %2$d կկալ</string>
+    <string name="diet_warning_high">Զգուշացում՝ կկալները գերազանցում են օրվա նպատակը</string>
+    <string name="diet_balance_ok">Հավասարակշռված է այսօրվա համար</string>
+
+    <!-- Favorites / Shopping -->
+    <string name="favorites_title">Նախընտրածներ</string>
+    <string name="favorites_empty">Դեռ նախընտրած բաղադրատոմսեր չկան</string>
+    <string name="shopping_title">Գնումների ցուցակ</string>
+    <string name="shopping_empty">Ցուցակը դատարկ է</string>
+    <string name="clear_list">Մաքրել ցուցակը</string>
+
+    <!-- Recipe detail -->
+    <string name="ingredients">Բաղադրիչներ</string>
+    <string name="steps">Քայլեր</string>
+    <string name="read_step_by_step">Կարդալ քայլ առ քայլ</string>
+    <string name="read_full_recipe">Կարդալ ամբողջ բաղադրատոմսը</string>
+    <string name="add_favorite">Ավելացնել նախընտրած</string>
+    <string name="remove_favorite">Հանել նախընտրածից</string>
+    <string name="add_to_shopping">Ավելացնել գնումների ցուցակ</string>
+    <string name="recipe_meta_fmt">%1$d կկալ • %2$d րոպե • %3$s</string>
+    <string name="bullet_line">• %1$s</string>
+
+    <!-- Text-to-speech (recipe reader) -->
+    <string name="tts_intro_ingredients">Բաղադրիչներ։</string>
+    <string name="tts_intro_steps">Պատրաստման քայլեր։</string>
+    <string name="tts_step_label">%d.</string>
+    <string name="tts_missing_voice">Հայերեն TTS ձայնը չի գտնվել այս սարքի վրա։ Կարող եք ներբեռնել Google հայերեն ձայնը կամ փոխել լռելյայն խոսքի շարժիչը։</string>
+    <string name="tts_install_voices">Բացել տեղադրումը</string>
+    <string name="tts_dialog_title">Ձայնային ընթերցում</string>
+    <string name="tts_not_ready">Ձայնը դեռ պատրաստվում է։ Մեկ վայրկյան հետո կրկին փորձեք։</string>
+    <string name="tts_nothing_to_read">Կարդալու տեքստ չկա։</string>
+
+    <!-- Profile tabs -->
+    <string name="tab_food">Սնունդ</string>
+    <string name="tab_ai">AI</string>
+    <string name="tab_profile">Պրոֆիլ</string>
+
+    <!-- Analyze food -->
+    <string name="food_assistant_title">Սննդի օգնական</string>
+    <string name="analyze_food_title">Վերլուծել սնունդը</string>
+    <string name="analyze_food_instructions">Նկարահանեք կամ ընտրեք սննդի նկար, ապա սեղմեք «Վերլուծել»՝ բաղադրատոմս և խորհուրդներ ստանալու համար</string>
+    <string name="analyze_ready_title">Պատրաստ է վերլուծման</string>
+    <string name="analyze_ready_instructions">Սեղմեք ստորևի կոճակը՝ սնունդը վերլուծելու համար</string>
+    <string name="btn_analyze_food">Վերլուծել սնունդը</string>
+    <string name="analyzing">Վերլուծվում է…</string>
+    <string name="take_photo">Լուսանկարել</string>
+    <string name="choose_photo">Ընտրել նկար</string>
+    <string name="error_pick_image_first">Խնդրում ենք նախ ընտրել սննդի նկար</string>
+    <string name="error_load_image">Նկարը բեռնելիս սխալ</string>
+    <string name="error_no_camera">Տեսախցիկի հավելվածը հասանելի չէ</string>
+    <string name="error_prepare_image">Չհաջողվեց պատրաստել նկարը AI-ի համար</string>
+
+    <!-- Food chat -->
+    <string name="food_ai_assistant_title">Սննդի AI օգնական</string>
+    <string name="chat_welcome">Բարև։ Ասա՝ ինչ ես ուզում պատրաստել կամ ինչ սննդի մասին խորհուրդ ես ուզում։</string>
+    <string name="food_analysis_hint">Հարցրեք ձեր սննդի մասին…</string>
+    <string name="error_image_path_missing">Նկարի ուղին բացակայում է</string>
+    <string name="error_load_image_failed">Չհաջողվեց բեռնել նկարը</string>
+    <string name="error_enter_question">Խնդրում ենք գրել հարց</string>
+
+    <!-- Food chat bottom nav (legacy layout) -->
+    <string name="bottom_food">Սնունդ</string>
+    <string name="bottom_tips">Խորհուրդներ</string>
+
+    <string name="cd_food_image">Սննդի նկար</string>
+
+    <string name="toast_shopping_added">Ավելացված է գնումների ցուցակին</string>
+
+    <string name="permission_camera_required">Տեսախցիկի թույլտվությունը պարտադիր է լուսանկարելու համար</string>
+
+    <string name="please_sign_in">Խնդրում ենք նախ մուտք գործել</string>
+
+    <!-- Online recipes -->
+    <string name="online_recipe_subtitle">Online recipe</string>
+
+    <!-- Diet goal -->
+    <string name="diet_goal_label">Նպատակ</string>
+    <string name="goal_lose">Նիհարել</string>
+    <string name="goal_maintain">Պահպանել</string>
+    <string name="goal_gain">Ավելացնել</string>
+    <string name="diet_today_plan">Այսօրվա պլան</string>
+    <string name="diet_total_kcal_fmt">Ընդհանուր՝ %1$d կկալ</string>
+    <string name="diet_pick_goal_hint">Ընտրեք նպատակ՝ թիրախը հաշվարկելու համար</string>
+    <string name="diet_meal_breakfast">Նախաճաշ</string>
+    <string name="diet_meal_lunch">Ճաշ</string>
+    <string name="diet_meal_dinner">Ընթրիք</string>
+    <string name="diet_meal_snack">Ընդմիջում</string>
+    <string name="diet_progress_fmt">%1$d/%2$d ավարտված</string>
+    <string name="diet_change_meal">Փոխել ուտեստը</string>
+    <string name="diet_generate_new_day">Նոր օր</string>
+    <string name="diet_pick_alternative">Ընտրեք այլ ուտեստ</string>
+    <string name="diet_no_alternatives">Այլ տարբերակ չկա</string>
+    <string name="diet_summary_kcal_fmt">Այս մենյու՝ %1$d կկալ · նպատակ %2$d</string>
+    <string name="diet_empty_slot">—</string>
+    <string name="diet_row_remote_meta">Առցանց · TheMealDB</string>
+    <string name="diet_loading_plan">Բեռնվում է առցանց մենյուն…</string>
+    <string name="diet_online_unavailable">Առցանց մենյու չբեռնվեց։ Ցուցադրվում է տեղային պլանը։</string>
+    <string name="diet_translating">Թարգմանվում է հայերեն…</string>
+
+    <!-- Search source -->
+    <string name="source_local">Local</string>
+    <string name="source_online">Online</string>
+    <string name="search_online_hint">Առցանց ցուցակը ներառում է որոնման արդյունքներ և պատահական ուտեստներ TheMealDB-ից։ Սեղմեք «Բեռնել ևս»՝ ավելացնելու նոր տարբերակներ։</string>
+    <string name="search_load_more">Բեռնել ևս ուտեստներ</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#52B788</color>
+    <color name="on_primary">#003921</color>
+    <color name="primary_container">#1B4332</color>
+    <color name="on_primary_container">#B7E4C7</color>
+
+    <color name="secondary">#74C69D</color>
+    <color name="on_secondary">#00301F</color>
+    <color name="secondary_container">#2D6A4F</color>
+    <color name="on_secondary_container">#D8F3DC</color>
+
+    <color name="tertiary">#95D5B2</color>
+    <color name="on_tertiary">#003921</color>
+    <color name="tertiary_container">#1B4332</color>
+    <color name="on_tertiary_container">#B7E4C7</color>
+
+    <color name="error">#FFB4AB</color>
+    <color name="on_error">#690005</color>
+    <color name="error_container">#93000A</color>
+    <color name="on_error_container">#FFDAD6</color>
+
+    <color name="background">#121212</color>
+    <color name="on_background">#E8E8E8</color>
+    <color name="surface">#1C1C1C</color>
+    <color name="on_surface">#E8E8E8</color>
+    <color name="surface_variant">#2A2F2C</color>
+    <color name="on_surface_variant">#BFC9C3</color>
+    <color name="outline">#89938E</color>
+    <color name="outline_variant">#3F4945</color>
+
+    <color name="text_primary">#E8E8E8</color>
+    <color name="text_secondary">#BFC9C3</color>
+    <color name="text_hint">#89938E</color>
+    <color name="card_background">#252525</color>
+    <color name="divider">#3F4945</color>
+
+    <color name="gradient_start">#1B2E24</color>
+    <color name="gradient_end">#121212</color>
+</resources>
